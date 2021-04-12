@@ -14,11 +14,8 @@ spring:
         lowerCaseServiceId: true
     routes:
     - id: studentportal
-      uri: http://localhost:8081/
+      uri: http://localhost:8086/
       predicates:
         - Path=/api/**
-    - id: leaderboard
-      uri: http://localhost:9191/
-      predicates:
-        - Path=/board/**    
+     
         
